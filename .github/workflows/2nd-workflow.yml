@@ -11,3 +11,6 @@ jobs:
 
         - name: list files
           run: ls
+
+        - name: Read the file
+		  run: new_demo_check/cat README.md
